@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main()  {
+	var a = "initial"
+	fmt.Println(a)
+
+	var b, c = 1, 2
+	fmt.Println(b, c)
+
+	var d = true
+	fmt.Println(d)
+
+	// zero-valued 
+	var e int
+	fmt.Println(e)
+
+	// only available inside functions 
+	f := "apple"
+	fmt.Println(f)
+}
