@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	var a = "initial"
 	fmt.Println(a)
 
@@ -12,11 +12,11 @@ func main()  {
 	var d = true
 	fmt.Println(d)
 
-	// zero-valued 
+	// zero-valued
 	var e int
 	fmt.Println(e)
 
-	// only available inside functions 
+	// only available inside functions
 	f := "apple"
 	fmt.Println(f)
 }
